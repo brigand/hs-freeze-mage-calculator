@@ -20,6 +20,7 @@ export default class Counter extends React.Component {
   };
 
   render() {
+    const {type} = this.props;
     return (
       <div className="Counter">
         <div className="Counter-content">
@@ -27,8 +28,8 @@ export default class Counter extends React.Component {
           {this.renderButton('0', 0)}
           {this.renderButton('1', 1)}
           {this.renderButton('2', 2)}
-          {this.props.type === 'spellDamage' && this.renderButton('3', 3)}
-          {this.props.type === 'spellDamage' && this.renderButton('4', 4)}
+          {['fireBall', 'spellDamage'].includes(type) && this.renderButton('3', 3)}
+          {['fireBall', 'spellDamage'].includes(type) && this.renderButton('4', 4)}
         </div>
       </div>
     );
