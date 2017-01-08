@@ -16,7 +16,7 @@ export default function getDamange(types) {
   }
 
   damage += fireBall * 6 + fireBall * spellDamage;
-  damage += forgottenTorch * 6 + forgottenTorch * spellDamage;
+  damage += forgottenTorch * 3 + forgottenTorch * spellDamage;
 
   return damage;
 };
