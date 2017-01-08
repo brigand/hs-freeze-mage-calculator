@@ -1,0 +1,23 @@
+.Counter {
+  text-align: left;
+}
+
+.Counter-button {
+  display: inline-block;
+  padding: 1em;
+  background: white;
+  color: black;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  text-align: center;
+}
+
+.Counter-button:hover {
+  background: #ccc;
+}
+
+.Counter-button-active {
+  background: hotpink;
+  color: white;
+}
+

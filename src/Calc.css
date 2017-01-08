@@ -1,0 +1,25 @@
+.Calc {
+
+}
+
+.Calc-type {
+}
+
+.Calc-type-label {
+  display: inline-block;
+  margin-right: 1em;
+  width: 8em;
+  text-align: left;
+}
+
+.Calc-type-counter {
+  display: inline-block;
+  width: 15em;
+}
+
+.Calc-damage-number {
+  font-size: 5em;
+  margin-top: 16px;
+}
+
+
